@@ -1,1 +1,13 @@
+database Reserva_Hotel;
 
+USE Reserva_Hotel;
+
+create table Huesped(
+idhuesped INT auto_increment PRIMARY KEY,
+nombre VARCHAR (100) NOT NULL,
+apellido VARCHAR (100),
+empresa VARCHAR (150),
+cargo VARCHAR (100),
+pasaporte VARCHAR (50),
+fecha_nacimiento DATE,
+nacionalidad VARCHAR (50),
